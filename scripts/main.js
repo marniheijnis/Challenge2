@@ -59,8 +59,9 @@ function background() {
 	var time = new Date();
 	var hours = time.getHours(); 
 	if (hours > 9 && hours < 23) {
-		document.body.style.backgroundColor = '#87CEFA';
-	} else {
 		document.body.style.backgroundColor = '#fff399';
+	} else {
+		document.body.style.backgroundColor = '#121987';
 	}
 }
+background();
