@@ -1,0 +1,20 @@
+body {
+	background: #091966;
+}
+
+.main {
+	background: white;
+	width: 400px;
+	height: 175px;
+	margin: 100px auto;
+}
+
+.badge {
+	width: 96px;
+	background: #a1b3d1;
+	color: white;
+	padding: 5px 10px;
+	font-family: fantasy;
+	font-weight: lighter;
+	margin: 10px auto;
+}
