@@ -7,6 +7,8 @@ body {
 	width: 400px;
 	height: 175px;
 	margin: 100px auto;
+	position: relative;
+	padding: 30px;
 }
 
 .badge {
@@ -16,5 +18,15 @@ body {
 	padding: 5px 10px;
 	font-family: fantasy;
 	font-weight: lighter;
-	margin: 10px auto;
+	position: absolute;
+	top: -29.5px;
+	left: 40%;
+}
+.clock {
+	background: grey;
+	text-align: center;
+	font-size: 55px;
+	font-family: 'Merriweather', serif;
+	height: 100%;
+	padding-top: 35px;
 }
